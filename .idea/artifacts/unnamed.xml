@@ -2,7 +2,9 @@
   <artifact name="unnamed">
     <output-path>$PROJECT_DIR$/out/artifacts/unnamed</output-path>
     <root id="root">
-      <element id="module-output" name="Проект" />
+      <element id="module-output" name="CW_Blog" />
+      <element id="library" level="project" name="javax.servlet" />
+      <element id="library" level="project" name="hessian-4.0.51" />
     </root>
   </artifact>
 </component>

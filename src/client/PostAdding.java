@@ -50,7 +50,7 @@ public class PostAdding extends JFrame{
                 Entry entry = new Entry();
                 entry.setCategory("Физика");
                 if (jRadioButton.isSelected()) entry.setCategory("Математика");
-                entry.setDate(Date.from(Instant.now()));
+                entry.setDate(Date.from(Instant.now()).toString());
                 entry.setAuthor(login);
                 entry.setTitle(jTextField.getText());
                 entry.setText(jTextArea.getText());

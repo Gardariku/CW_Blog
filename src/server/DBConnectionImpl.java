@@ -20,6 +20,7 @@ public class DBConnectionImpl extends HessianServlet implements DBConnection {
         } catch (SQLException e) {
             e.printStackTrace();
         }
+        System.out.print("EZY");
     }
 
     public static Database getConnect() {

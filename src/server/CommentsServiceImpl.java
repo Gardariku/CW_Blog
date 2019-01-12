@@ -41,7 +41,7 @@ public class CommentsServiceImpl extends HessianServlet implements CommentsServi
     public boolean AddComment(int ID, String login, String text) {
         try {
             Database db = DBConnectionImpl.getConnect();
-            String command = "insert into Comments (PostID, Author, Date, Text) values ('" + ID + "', '" + login + "', '" + Date.from(Instant.now()) +  "', '" + text + "');";
+            String command = "insert into Comments (PostID, Author, Date, Text) values ('" + ID + "', '" + login + "', '" + Date.from(Instant.now()).toString() +  "', '" + text + "');";
             Statement statement = db.connection.createStatement();
             statement.execute(command);
             statement.close();

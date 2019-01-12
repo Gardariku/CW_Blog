@@ -17,6 +17,14 @@ public class Database {
     public void connect() throws ClassNotFoundException, SQLException {
         Context initContext = null;
         try {
+            Class.forName("org.sqlite.JDBC");
+            String url = "jdbc:sqlite:C:/db/Chat.db";
+            connection = DriverManager.getConnection(url);
+        }
+     catch (SQLException e) {
+        System.out.println(e.getMessage());
+    }
+        /*(try {
             initContext = new InitialContext();
         } catch (NamingException e) {
             e.printStackTrace();
@@ -32,8 +40,8 @@ public class Database {
             dataSource = (DataSource)envContext.lookup("jdbc/Chat");
         } catch (NamingException e) {
             e.printStackTrace();
-        }
-        Connection connection = dataSource.getConnection();
+        }*/
+
     }
 
 }

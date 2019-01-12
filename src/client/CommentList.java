@@ -89,7 +89,7 @@ public class CommentList extends JFrame{
                 for (Entry i : ents) {
                     JPanel jPanel3 = new JPanel(new GridLayout(4, 1));
                     JLabel jLabel = new JLabel(i.getTitle());
-                    JLabel jLabel1 = new JLabel(i.getDate().toString());
+                    JLabel jLabel1 = new JLabel(i.getPostDate().toString());
                     JLabel jLabel2 = new JLabel(i.getAuthor());
                     JLabel jLabel3 = new JLabel(i.getText());
                     jPanel3.add(jLabel);

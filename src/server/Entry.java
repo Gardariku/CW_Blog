@@ -1,10 +1,11 @@
 package server;
 
+import java.io.Serializable;
 import java.util.Date;
 
-public class Entry {
+ class Entry implements Serializable {
     String Title;
-    Date PostDate;
+    String PostDate;
     String Author;
     String Text;
 
@@ -20,11 +21,11 @@ public class Entry {
         Title = title;
     }
 
-    public Date getDate() {
+    public String getPostDate() {
         return PostDate;
     }
 
-    public void setDate(Date date) {
+    public void setDate(String date) {
         PostDate = date;
     }
 

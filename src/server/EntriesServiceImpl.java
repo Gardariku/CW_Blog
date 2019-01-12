@@ -36,7 +36,7 @@ public class EntriesServiceImpl extends HessianServlet implements EntriesService
             while (resultSet.next()){
                 Entry entry = new Entry();
                 entry.Title = resultSet.getString("Title");
-                entry.PostDate = resultSet.getDate("Date");
+                entry.PostDate = resultSet.getString("Date");
                 entry.Author = resultSet.getString("Author");
                 entry.Text = resultSet.getString("Text");
                 entry.ID = resultSet.getInt("ID");
@@ -61,7 +61,7 @@ public class EntriesServiceImpl extends HessianServlet implements EntriesService
             while (resultSet.next()){
                 Entry entry = new Entry();
                 entry.Title = resultSet.getString("Title");
-                entry.PostDate = resultSet.getDate("Date");
+                entry.PostDate = resultSet.getString("Date");
                 entry.Author = resultSet.getString("Author");
                 entry.Text = resultSet.getString("Text");
                 entry.ID = resultSet.getInt("ID");
@@ -79,7 +79,7 @@ public class EntriesServiceImpl extends HessianServlet implements EntriesService
     public boolean AddEntry(Entry entry) {
         Database db = DBConnectionImpl.getConnect();
         try {
-            String command = "insert into Posts (Title, Author, Date, Category, Text) values ('" + entry.getTitle() + "', '" + entry.getAuthor() + "', '" + entry.getDate() +  "', '" + entry.getCategory() +  "', '" + entry.getText() + "');";
+            String command = "insert into Posts (Title, Author, Date, Category, Text) values ('" + entry.getTitle() + "', '" + entry.getAuthor() + "', '" + entry.getPostDate() +  "', '" + entry.getCategory() +  "', '" + entry.getText() + "');";
             Statement statement = db.connection.createStatement();
             statement.execute(command);
             statement.close();

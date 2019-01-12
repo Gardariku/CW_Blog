@@ -38,7 +38,6 @@ public class RegistrationWindow extends JFrame{
             @Override
             public void actionPerformed(ActionEvent e){
                 System.exit(0);
-
             }
         });
         JPanel jp1 = new JPanel();
