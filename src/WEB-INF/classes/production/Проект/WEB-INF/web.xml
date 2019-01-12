@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
+         version="4.0">
+
+    <display-name>BlogServer</display-name>
+
+    <servlet>
+        <servlet-name>DBConnection</servlet-name>
+        <servlet-class>server.DBConnectionImpl</servlet-class>
+        <load-on-startup>1</load-on-startup>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>DBConnection</servlet-name>
+        <url-pattern>/DBConnection</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>AuthService</servlet-name>
+        <servlet-class>server.AuthServiceImpl</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AuthService</servlet-name>
+        <url-pattern>/AuthService</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>RegistrationService</servlet-name>
+        <servlet-class>server.RegistrationServiceImpl</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>RegistrationService</servlet-name>
+        <url-pattern>/RegistrationService</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>EntriesService</servlet-name>
+        <servlet-class>server.EntriesServiceImpl</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>EntriesService</servlet-name>
+        <url-pattern>/EntriesService</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>CommentsService</servlet-name>
+        <servlet-class>server.CommentsServiceImpl</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>CommentsService</servlet-name>
+        <url-pattern>/CommentsService</url-pattern>
+    </servlet-mapping>
+
+    <resource-ref>
+        <description>Chat</description>
+        <res-ref-name>jdbc/Chat</res-ref-name>
+        <res-type>javax.sql.DataSource</res-type>
+        <res-auth>Application</res-auth>
+    </resource-ref>
+
+</web-app>

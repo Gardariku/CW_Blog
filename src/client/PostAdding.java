@@ -15,7 +15,8 @@ public class PostAdding extends JFrame{
 
     public PostAdding(String login) throws IOException {
 
-        PostAdding postAdding = this;
+        PostAdding pa = this;
+        pa.setResizable(false);
         this.setTitle("Добавление новой записи");
         this.setDefaultCloseOperation(DISPOSE_ON_CLOSE);
         this.setBounds(200, 200, 500, 500);
@@ -54,7 +55,7 @@ public class PostAdding extends JFrame{
                 entry.setTitle(jTextField.getText());
                 entry.setText(jTextArea.getText());
                 addService.AddEntry(entry);
-                postAdding.dispose();
+                pa.dispose();
             }
         });
         this.add(jButton, BorderLayout.SOUTH);

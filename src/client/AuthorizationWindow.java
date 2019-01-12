@@ -18,6 +18,8 @@ public class AuthorizationWindow extends JFrame{
 
     public AuthorizationWindow() throws IOException{
 
+        AuthorizationWindow aw = this;
+        aw.setResizable(false);
         setTitle("Авторизация");
         setBounds(200, 200, 400, 250);
         setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
@@ -76,6 +78,10 @@ public class AuthorizationWindow extends JFrame{
                         catch (IOException e2) {
                             // Handle IOException
                         }
+                        aw.dispose();
+                    }
+                    else {
+                        InfoWindow.infoBox("Вами введены неправильные логин или пароль!", "Авторизация неудалась");
                     }
             }
         });
@@ -101,6 +107,7 @@ public class AuthorizationWindow extends JFrame{
             public void actionPerformed(ActionEvent e) {
                 try {
                     GuestWindow guestWindow = new GuestWindow();
+                    aw.dispose();
                 }
                 catch (IOException e2) {
                     // Handle IOException

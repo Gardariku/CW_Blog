@@ -18,7 +18,8 @@ public class RegistrationWindow extends JFrame{
 
     public RegistrationWindow() throws IOException {
 
-        RegistrationWindow registrationWindow = this;
+        RegistrationWindow rw = this;
+        rw.setResizable(false);
         setTitle("Регистрация");
         setBounds(200, 200, 400, 200);
         setDefaultCloseOperation(WindowConstants.DISPOSE_ON_CLOSE);
@@ -68,8 +69,12 @@ public class RegistrationWindow extends JFrame{
         jButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                boolean success = regService.Registrate(login.getText(), password.getText());
-                registrationWindow.setVisible(false);
+                if(regService.Registrate(login.getText(), password.getText())) {
+                    rw.dispose();
+                }
+                else {
+                    InfoWindow.infoBox("При регистрации произошла ошибка!", "Регистрация неудалась");
+                }
             }
         });
         jp.add(jButton, BorderLayout.PAGE_END);
