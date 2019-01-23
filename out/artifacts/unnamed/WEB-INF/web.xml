@@ -52,6 +52,16 @@
         <url-pattern>/CommentsService</url-pattern>
     </servlet-mapping>
 
+    <servlet>
+        <servlet-name>UserService</servlet-name>
+        <servlet-class>server.UserServiceImpl</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>UserService</servlet-name>
+        <url-pattern>/UserService</url-pattern>
+    </servlet-mapping>
+
+
     <resource-ref>
         <description>Chat</description>
         <res-ref-name>jdbc/Chat</res-ref-name>

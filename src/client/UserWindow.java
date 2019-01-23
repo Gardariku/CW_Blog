@@ -1,7 +1,9 @@
 package client;
 
 import api.EntriesService;
+import api.UserService;
 import server.Entry;
+import server.User;
 
 import javax.swing.*;
 import java.awt.*;
@@ -20,8 +22,12 @@ public class UserWindow extends JFrame{
         UserWindow userWindow = this;
         this.setTitle("Добро пожаловать, " + login +"!");
         this.setSize(1000, 900);
-        JPanel jPanel = new JPanel(new BorderLayout());
-        this.add(jPanel);
+        JTabbedPane tabbedPane = new JTabbedPane();
+        JPanel entPanel = new JPanel(new BorderLayout());
+        JPanel userPanel = new JPanel(new GridLayout(8,2,30,50));
+        tabbedPane.addTab("Записи", entPanel);
+        tabbedPane.addTab("Профиль", userPanel);
+        this.add(tabbedPane);
         Container container = new Container();
         container.setLayout(new BoxLayout(container, BoxLayout.Y_AXIS));
         container2 = new Container();
@@ -29,10 +35,10 @@ public class UserWindow extends JFrame{
         container2.setBackground(Color.WHITE);
 
         JPanel jPanel1 = new JPanel();
-        jPanel.add(jPanel1, BorderLayout.WEST);
+        entPanel.add(jPanel1, BorderLayout.WEST);
         jPanel2 = new JPanel();
 
-        jPanel.add(jPanel2, BorderLayout.CENTER);
+        entPanel.add(jPanel2, BorderLayout.CENTER);
         JButton jButton = new JButton("Все темы");
         jButton.setAlignmentX(Component.LEFT_ALIGNMENT);
         jButton.setSize(70, 10);
@@ -234,6 +240,70 @@ public class UserWindow extends JFrame{
         container.add(jButton3);
         jPanel1.add(container);
         jPanel2.add(container2);
+
+        userPanel.setBorder(BorderFactory.createEmptyBorder(20,20,20,20));
+        UserService userService = (UserService) MainApp.factory.create(UserService.class, MainApp.serverAddress + "UserService");
+
+        User currentUser = userService.getUserInfo("full", login);
+        JLabel jLabel1 = new JLabel("Имя пользователя:");
+        userPanel.add(jLabel1);
+        JTextField name = new JTextField();
+        name.setText(currentUser.getLogin());
+        userPanel.add(name);
+
+        JLabel jLabel2 = new JLabel("Пароль:");
+        userPanel.add(jLabel2);
+        JTextField password = new JTextField();
+        password.setText(currentUser.getPassword());
+        userPanel.add(password);
+
+        JLabel jLabel3 = new JLabel("Имя:");
+        userPanel.add(jLabel3);
+        JTextField firstName = new JTextField();
+        firstName.setText(currentUser.getFirstName());
+        userPanel.add(firstName);
+
+        JLabel jLabel4 = new JLabel("Фамилия:");
+        userPanel.add(jLabel4);
+        JTextField lastName = new JTextField();
+        lastName.setText(currentUser.getLastName());
+        userPanel.add(lastName);
+
+        JLabel jLabel5 = new JLabel("Отчество:");
+        userPanel.add(jLabel5);
+        JTextField affix = new JTextField();
+        affix.setText(currentUser.getAffix());
+        userPanel.add(affix);
+
+        JLabel jLabel6 = new JLabel("Дата рождения:");
+        userPanel.add(jLabel6);
+        JTextField birthDate = new JTextField();
+        birthDate.setText(currentUser.getBirthDate());
+        userPanel.add(birthDate);
+
+        JLabel jLabel7 = new JLabel("Интересы:");
+        userPanel.add(jLabel7);
+        JTextField info = new JTextField();
+        info.setText(currentUser.getInfo());
+        userPanel.add(info);
+
+        JButton jButtonSend = new JButton("Отправить");
+        jButtonSend.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                currentUser.setLogin(name.getText());
+                currentUser.setPassword(password.getText());
+                currentUser.setFirstName(firstName.getText());
+                currentUser.setLastName(lastName.getText());
+                currentUser.setAffix(affix.getText());
+                currentUser.setBirthDate(birthDate.getText());
+                currentUser.setInfo(info.getText());
+                userService.refreshUserInfo(currentUser);
+            }
+        });
+        userPanel.add(jButtonSend, BorderLayout.PAGE_END);
+
+
         this.setVisible(true);
 
     }

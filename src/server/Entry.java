@@ -3,7 +3,7 @@ package server;
 import java.io.Serializable;
 import java.util.Date;
 
- class Entry implements Serializable {
+ public class Entry implements Serializable {
     String Title;
     String PostDate;
     String Author;

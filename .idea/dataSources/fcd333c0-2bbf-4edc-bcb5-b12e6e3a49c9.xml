@@ -39,7 +39,6 @@
     <index id="17" parent="6" name="sqlite_autoindex_CommentHistory_1">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>ID</ColNames>
-      <ColumnCollations></ColumnCollations>
       <Unique>1</Unique>
     </index>
     <key id="18" parent="6">
@@ -78,7 +77,6 @@
     <index id="26" parent="7" name="sqlite_autoindex_Comments_1">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>ID</ColNames>
-      <ColumnCollations></ColumnCollations>
       <Unique>1</Unique>
     </index>
     <key id="27" parent="7">
@@ -106,7 +104,6 @@
     <index id="32" parent="8" name="sqlite_autoindex_PostHistory_1">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>ID</ColNames>
-      <ColumnCollations></ColumnCollations>
       <Unique>1</Unique>
     </index>
     <key id="33" parent="8">
@@ -149,7 +146,6 @@
     <index id="42" parent="9" name="sqlite_autoindex_Posts_1">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>ID</ColNames>
-      <ColumnCollations></ColumnCollations>
       <Unique>1</Unique>
     </index>
     <key id="43" parent="9">
@@ -177,7 +173,6 @@
     <index id="48" parent="10" name="sqlite_autoindex_Tags_1">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>ID</ColNames>
-      <ColumnCollations></ColumnCollations>
       <Unique>1</Unique>
     </index>
     <key id="49" parent="10">
@@ -207,7 +202,6 @@
     <index id="55" parent="11" name="sqlite_autoindex_Users_1">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>Login</ColNames>
-      <ColumnCollations></ColumnCollations>
       <Unique>1</Unique>
     </index>
     <key id="56" parent="11">

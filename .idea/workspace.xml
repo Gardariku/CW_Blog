@@ -8,97 +8,37 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c889ebd5-c469-4e0e-9cfe-f8042c490bf1" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/unnamed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/unnamed.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/jdatepicker_2_0_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/jdatepicker-2.0.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/api/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/server/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/server/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/fcd333c0-2bbf-4edc-bcb5-b12e6e3a49c9.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/fcd333c0-2bbf-4edc-bcb5-b12e6e3a49c9.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Chat.db" beforeDir="false" afterPath="$PROJECT_DIR$/Chat.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/unnamed/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/unnamed/WEB-INF/web.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/unnamed/client/AuthorizationWindow$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/unnamed/client/AuthorizationWindow$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/unnamed/client/AuthorizationWindow$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/unnamed/client/AuthorizationWindow$2.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/unnamed/client/AuthorizationWindow$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/unnamed/client/AuthorizationWindow$3.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/unnamed/client/AuthorizationWindow$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/unnamed/client/AuthorizationWindow$4.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/unnamed/client/AuthorizationWindow.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/unnamed/client/AuthorizationWindow.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/unnamed/client/CommentList$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/unnamed/client/CommentList$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/unnamed/client/GuestWindow$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/unnamed/client/GuestWindow$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/unnamed/client/GuestWindow$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/unnamed/client/GuestWindow$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/unnamed/client/GuestWindow$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/unnamed/client/GuestWindow$3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/unnamed/client/MainApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/unnamed/client/MainApp.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/unnamed/client/PostAdding$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/unnamed/client/PostAdding$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/unnamed/client/PostAdding.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/unnamed/client/PostAdding.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/unnamed/client/RegistrationWindow$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/unnamed/client/RegistrationWindow$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/unnamed/client/RegistrationWindow$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/unnamed/client/RegistrationWindow$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/unnamed/client/RegistrationWindow.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/unnamed/client/RegistrationWindow.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/unnamed/client/UserWindow$1$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/unnamed/client/UserWindow$1$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/unnamed/client/UserWindow$1$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/unnamed/client/UserWindow$1$2.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/unnamed/client/UserWindow$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/unnamed/client/UserWindow$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/unnamed/client/UserWindow$2$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/unnamed/client/UserWindow$2$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/unnamed/client/UserWindow$2$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/unnamed/client/UserWindow$2$2.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/unnamed/client/UserWindow$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/unnamed/client/UserWindow$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/unnamed/client/UserWindow$3$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/unnamed/client/UserWindow$3$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/unnamed/client/UserWindow$3$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/unnamed/client/UserWindow$3$2.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/unnamed/client/UserWindow$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/unnamed/client/UserWindow$3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/unnamed/server/Comment.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/unnamed/server/Comment.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/unnamed/server/CommentsServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/unnamed/server/CommentsServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/unnamed/server/DBConnectionImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/unnamed/server/DBConnectionImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/unnamed/server/Database.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/unnamed/server/Database.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/unnamed/server/EntriesServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/unnamed/server/EntriesServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/unnamed/server/Entry.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/unnamed/server/Entry.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/unnamed/server/RegistrationServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/unnamed/server/RegistrationServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/WEB-INF/classes/production/Проект/META-INF/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/WEB-INF/classes/production/Проект/WEB-INF/web.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/WEB-INF/classes/production/Проект/api/AuthService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/WEB-INF/classes/production/Проект/api/CommentsService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/WEB-INF/classes/production/Проект/api/DBConnection.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/WEB-INF/classes/production/Проект/api/EntriesService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/WEB-INF/classes/production/Проект/api/RegistrationService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/WEB-INF/classes/production/Проект/client/AuthorizationWindow$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/WEB-INF/classes/production/Проект/client/AuthorizationWindow$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/WEB-INF/classes/production/Проект/client/AuthorizationWindow$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/WEB-INF/classes/production/Проект/client/AuthorizationWindow$4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/WEB-INF/classes/production/Проект/client/AuthorizationWindow.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/WEB-INF/classes/production/Проект/client/CommentList$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/WEB-INF/classes/production/Проект/client/CommentList$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/WEB-INF/classes/production/Проект/client/CommentList.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/WEB-INF/classes/production/Проект/client/CommentWindow$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/WEB-INF/classes/production/Проект/client/CommentWindow.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/WEB-INF/classes/production/Проект/client/GuestWindow$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/WEB-INF/classes/production/Проект/client/GuestWindow$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/WEB-INF/classes/production/Проект/client/GuestWindow$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/WEB-INF/classes/production/Проект/client/GuestWindow.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/WEB-INF/classes/production/Проект/client/MainApp.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/WEB-INF/classes/production/Проект/client/PostAdding$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/WEB-INF/classes/production/Проект/client/PostAdding.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/WEB-INF/classes/production/Проект/client/RegistrationWindow$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/WEB-INF/classes/production/Проект/client/RegistrationWindow$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/WEB-INF/classes/production/Проект/client/RegistrationWindow.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/WEB-INF/classes/production/Проект/client/UserWindow$1$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/WEB-INF/classes/production/Проект/client/UserWindow$1$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/WEB-INF/classes/production/Проект/client/UserWindow$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/WEB-INF/classes/production/Проект/client/UserWindow$2$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/WEB-INF/classes/production/Проект/client/UserWindow$2$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/WEB-INF/classes/production/Проект/client/UserWindow$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/WEB-INF/classes/production/Проект/client/UserWindow$3$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/WEB-INF/classes/production/Проект/client/UserWindow$3$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/WEB-INF/classes/production/Проект/client/UserWindow$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/WEB-INF/classes/production/Проект/client/UserWindow$4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/WEB-INF/classes/production/Проект/client/UserWindow.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/WEB-INF/classes/production/Проект/server/AuthServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/WEB-INF/classes/production/Проект/server/Category.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/WEB-INF/classes/production/Проект/server/Comment.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/WEB-INF/classes/production/Проект/server/CommentsServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/WEB-INF/classes/production/Проект/server/DBConnectionImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/WEB-INF/classes/production/Проект/server/Database.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/WEB-INF/classes/production/Проект/server/EntriesServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/WEB-INF/classes/production/Проект/server/Entry.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/WEB-INF/classes/production/Проект/server/RegistrationServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/client/CommentList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/client/CommentList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/client/GuestWindow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/client/GuestWindow.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/client/MainApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/client/MainApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/client/PostAdding.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/client/PostAdding.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/client/RegistrationWindow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/client/RegistrationWindow.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/unnamed/client/UserWindow$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/unnamed/client/UserWindow$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/unnamed/client/UserWindow.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/unnamed/client/UserWindow.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/client/AuthorizationWindow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/client/AuthorizationWindow.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/client/UserWindow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/client/UserWindow.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/server/Comment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/server/Comment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/server/CommentsServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/server/CommentsServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/server/DBConnectionImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/server/DBConnectionImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/server/Database.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/server/Database.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/server/EntriesServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/server/EntriesServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/server/Entry.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/server/Entry.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/server/RegistrationServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/server/RegistrationServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Проект.iml" beforeDir="false" afterPath="$PROJECT_DIR$/CW_Blog.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Управление задачами.db3" beforeDir="false" />
     </list>
     <ignored path="Проект.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -137,57 +77,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="DBConnectionImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/server/DBConnectionImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="13" selection-start-line="13" selection-end-line="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Database.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/server/Database.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="21" selection-start-line="21" selection-end-line="21" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RegistrationWindow.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/client/RegistrationWindow.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="66" column="160" selection-start-line="66" selection-start-column="8" selection-end-line="66" selection-end-column="160" />
-              <folding>
-                <element signature="e#1209#1210#0" expanded="true" />
-                <element signature="e#1255#1256#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PostAdding.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/client/PostAdding.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="383">
-              <caret line="56" column="43" selection-start-line="56" selection-start-column="43" selection-end-line="56" selection-end-column="43" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="UserWindow.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/client/UserWindow.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="528">
-              <caret line="38" column="141" selection-start-line="38" selection-start-column="141" selection-end-line="38" selection-end-column="141" />
+            <state relative-caret-position="222">
+              <caret line="300" selection-start-line="300" selection-end-line="300" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -195,11 +89,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Entry.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/server/Entry.java">
+      <file leaf-file-name="UserServiceImpl.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/server/UserServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="3" column="22" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
+            <state relative-caret-position="317">
+              <caret line="37" column="13" selection-start-line="37" selection-start-column="13" selection-end-line="37" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -210,8 +104,8 @@
       <file leaf-file-name="EntriesServiceImpl.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/server/EntriesServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="94">
-              <caret line="35" selection-start-line="35" selection-end-line="35" />
+            <state relative-caret-position="296">
+              <caret line="84" column="30" lean-forward="true" selection-start-line="84" selection-start-column="30" selection-end-line="84" selection-end-column="30" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -219,34 +113,94 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MainApp.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/client/MainApp.java">
+      <file leaf-file-name="RegistrationWindow.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/client/RegistrationWindow.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="80" selection-start-line="16" selection-start-column="80" selection-end-line="16" selection-end-column="80" />
+            <state relative-caret-position="302">
+              <caret line="67" column="12" lean-forward="true" selection-start-line="67" selection-start-column="12" selection-end-line="67" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/api/UserService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" column="37" selection-start-line="6" selection-start-column="37" selection-end-line="6" selection-end-column="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="User.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/server/User.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1139">
+              <caret line="67" column="5" selection-start-line="67" selection-start-column="5" selection-end-line="67" selection-end-column="5" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#264#265#0" expanded="true" />
+                <element signature="e#292#293#0" expanded="true" />
+                <element signature="e#334#335#0" expanded="true" />
+                <element signature="e#368#369#0" expanded="true" />
+                <element signature="e#403#404#0" expanded="true" />
+                <element signature="e#434#435#0" expanded="true" />
+                <element signature="e#482#483#0" expanded="true" />
+                <element signature="e#522#523#0" expanded="true" />
+                <element signature="e#558#559#0" expanded="true" />
+                <element signature="e#590#591#0" expanded="true" />
+                <element signature="e#640#641#0" expanded="true" />
+                <element signature="e#682#683#0" expanded="true" />
+                <element signature="e#717#718#0" expanded="true" />
+                <element signature="e#748#749#0" expanded="true" />
+                <element signature="e#796#797#0" expanded="true" />
+                <element signature="e#836#837#0" expanded="true" />
+                <element signature="e#868#869#0" expanded="true" />
+                <element signature="e#896#897#0" expanded="true" />
+                <element signature="e#938#939#0" expanded="true" />
+                <element signature="e#972#973#0" expanded="true" />
+                <element signature="e#1008#1009#0" expanded="true" />
+                <element signature="e#1040#1041#0" expanded="true" />
+                <element signature="e#1090#1091#0" expanded="true" />
+                <element signature="e#1132#1133#0" expanded="true" />
+                <element signature="e#1163#1164#0" expanded="true" />
+                <element signature="e#1190#1191#0" expanded="true" />
+                <element signature="e#1230#1231#0" expanded="true" />
+                <element signature="e#1262#1263#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Comment.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/server/Comment.java">
+      <file leaf-file-name="Entry.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/server/Entry.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="44" selection-start-line="4" selection-start-column="44" selection-end-line="4" selection-end-column="44" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CommentsServiceImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/server/CommentsServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="258">
-              <caret line="44" column="66" selection-start-line="44" selection-start-column="66" selection-end-line="44" selection-end-column="66" />
+            <state relative-caret-position="153">
+              <caret line="9" column="16" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#256#257#0" expanded="true" />
+                <element signature="e#284#285#0" expanded="true" />
+                <element signature="e#326#327#0" expanded="true" />
+                <element signature="e#355#356#0" expanded="true" />
+                <element signature="e#390#391#0" expanded="true" />
+                <element signature="e#421#422#0" expanded="true" />
+                <element signature="e#461#462#0" expanded="true" />
+                <element signature="e#492#493#0" expanded="true" />
+                <element signature="e#525#526#0" expanded="true" />
+                <element signature="e#554#555#0" expanded="true" />
+                <element signature="e#598#599#0" expanded="true" />
+                <element signature="e#629#630#0" expanded="true" />
+                <element signature="e#660#661#0" expanded="true" />
+                <element signature="e#687#688#0" expanded="true" />
+                <element signature="e#727#728#0" expanded="true" />
+                <element signature="e#754#755#0" expanded="true" />
+                <element signature="e#780#781#0" expanded="true" />
+                <element signature="e#805#806#0" expanded="true" />
+                <element signature="e#838#839#0" expanded="true" />
+                <element signature="e#866#867#0" expanded="true" />
+                <element signature="e#901#902#0" expanded="true" />
+                <element signature="e#932#933#0" expanded="true" />
+                <element signature="e#980#981#0" expanded="true" />
+                <element signature="e#1015#1016#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -257,8 +211,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Enum" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -278,9 +232,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/ProblemBossWindow.java" />
-        <option value="$PROJECT_DIR$/src/BossWindow.java" />
-        <option value="$PROJECT_DIR$/src/ProblemAttachedWindow.java" />
         <option value="$PROJECT_DIR$/src/RegistrationWindow.java" />
         <option value="$PROJECT_DIR$/src/AuthorizationWindow.java" />
         <option value="$PROJECT_DIR$/src/PostAdding.java" />
@@ -315,10 +266,8 @@
         <option value="$PROJECT_DIR$/src/META-INF/MANIFEST.MF" />
         <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/src/client/InfoWindow.java" />
-        <option value="$PROJECT_DIR$/src/client/AuthorizationWindow.java" />
         <option value="$PROJECT_DIR$/src/client/VerticalLayout.java" />
         <option value="$PROJECT_DIR$/src/server/DBConnectionImpl.java" />
-        <option value="$PROJECT_DIR$/src/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/src/client/RegistrationWindow.java" />
         <option value="$PROJECT_DIR$/src/server/RegistrationServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/server/Database.java" />
@@ -326,9 +275,14 @@
         <option value="$PROJECT_DIR$/src/server/EntriesServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/client/PostAdding.java" />
         <option value="$PROJECT_DIR$/src/server/CommentsServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/client/UserWindow.java" />
-        <option value="$PROJECT_DIR$/src/server/Entry.java" />
         <option value="$PROJECT_DIR$/src/client/MainApp.java" />
+        <option value="$PROJECT_DIR$/src/server/Entry.java" />
+        <option value="$PROJECT_DIR$/src/api/UserService.java" />
+        <option value="$PROJECT_DIR$/src/server/User.java" />
+        <option value="$PROJECT_DIR$/src/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/src/client/AuthorizationWindow.java" />
+        <option value="$PROJECT_DIR$/src/client/UserWindow.java" />
+        <option value="$PROJECT_DIR$/src/server/UserServiceImpl.java" />
       </list>
     </option>
   </component>
@@ -354,12 +308,14 @@
     <option name="width" value="1300" />
     <option name="height" value="780" />
   </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="AndroidView" />
       <pane id="ProjectPane">
@@ -372,7 +328,18 @@
             <path>
               <item name="CW_Blog" type="b2602c69:ProjectViewProjectNode" />
               <item name="CW_Blog" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CW_Blog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CW_Blog" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CW_Blog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CW_Blog" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="CW_Blog" type="b2602c69:ProjectViewProjectNode" />
@@ -402,31 +369,33 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="DB2 (LUW)&#10;MySQL&#10;SQL Server (Microsoft)&#10;Sqlite (Xerial)" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/WEB-INF/web.xml" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="last_opened_file_path" value="C:/db/Chat.db" />
+    <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="SQL Dialects" />
+    <property name="settings.editor.selected.configurable" value="SQL Resolution Scopes" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\user\Desktop\ООП\КР\CW_Blog\lib" />
+      <recent name="D:\Катя\Работа Homework\Дипломы\Заказ 813908 Система управления задачами\Проект" />
+      <recent name="D:\Катя\Работа Homework\Дипломы\Заказ 813908 Система управления задачами\Проект\src" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\user\Desktop\ООП\КР\CW_Blog" />
       <recent name="C:\Users\user\Desktop\ООП\КР\CW_Blog\src" />
       <recent name="C:\Users\user\Desktop\ООП\КР\CW_Blog\web\web" />
       <recent name="C:\Users\user\Desktop\ООП\КР\CW_Blog\web" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\Катя\Работа Homework\Дипломы\Заказ 813908 Система управления задачами\Проект" />
-      <recent name="D:\Катя\Работа Homework\Дипломы\Заказ 813908 Система управления задачами\Проект\src" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -469,6 +438,16 @@
       </option>
       <patterns />
     </configuration>
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <module name="Проект" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
@@ -493,7 +472,7 @@
     </configuration>
     <configuration name="TC" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.12" ALTERNATIVE_JRE_ENABLED="false">
       <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/" />
-      <option name="UPDATING_POLICY" value="restart-server" />
+      <option name="UPDATING_POLICY" value="update-resources" />
       <deployment>
         <artifact name="CW_Blog:war exploded">
           <settings>
@@ -726,19 +705,6 @@
       <envs />
       <method />
     </configuration>
-    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="Проект" />
-      <envs />
-      <method />
-    </configuration>
     <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="filePath" />
@@ -826,15 +792,15 @@
       <workItem from="1547247937144" duration="10000" />
       <workItem from="1547248704631" duration="11308000" />
       <workItem from="1547298193817" duration="11324000" />
+      <workItem from="1548247466817" duration="13409000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="98164000" />
+    <option name="totallyTimeSpent" value="111573000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="5" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
@@ -847,17 +813,17 @@
       <window_info id="Structure" order="4" side_tool="true" />
       <window_info anchor="right" id="Ant Build" order="1" />
       <window_info id="UI Designer" order="0" />
-      <window_info anchor="bottom" id="Debug" order="7" weight="0.477208" />
+      <window_info anchor="bottom" id="Debug" order="7" weight="0.4159544" />
       <window_info anchor="bottom" id="TODO" order="4" />
       <window_info anchor="bottom" id="Messages" order="3" weight="0.32827586" />
       <window_info id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="6" />
       <window_info anchor="bottom" id="Java Enterprise" order="13" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Run" order="1" weight="0.37749287" />
+      <window_info anchor="bottom" id="Run" order="1" weight="0.42022792" />
       <window_info anchor="bottom" id="Version Control" order="5" weight="0.32905984" />
       <window_info anchor="bottom" id="Terminal" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="2" visible="true" weight="0.2261745" />
+      <window_info content_ui="combo" id="Project" order="2" visible="true" weight="0.2295302" />
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="right" id="Theme Preview" order="8" />
       <window_info id="Favorites" order="1" side_tool="true" />
@@ -893,30 +859,6 @@
           <option name="timeStamp" value="59" />
         </line-breakpoint>
         <line-breakpoint type="java-line">
-          <url>file://$PROJECT_DIR$/src/server/RegistrationServiceImpl.java</url>
-          <line>16</line>
-          <properties />
-          <option name="timeStamp" value="64" />
-        </line-breakpoint>
-        <line-breakpoint type="java-line">
-          <url>file://$PROJECT_DIR$/src/server/RegistrationServiceImpl.java</url>
-          <line>14</line>
-          <properties />
-          <option name="timeStamp" value="65" />
-        </line-breakpoint>
-        <line-breakpoint type="java-line">
-          <url>file://$PROJECT_DIR$/src/server/RegistrationServiceImpl.java</url>
-          <line>12</line>
-          <properties />
-          <option name="timeStamp" value="67" />
-        </line-breakpoint>
-        <line-breakpoint type="java-line">
-          <url>file://$PROJECT_DIR$/src/server/RegistrationServiceImpl.java</url>
-          <line>17</line>
-          <properties />
-          <option name="timeStamp" value="72" />
-        </line-breakpoint>
-        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/src/server/EntriesServiceImpl.java</url>
           <line>35</line>
           <properties />
@@ -928,17 +870,47 @@
           <properties />
           <option name="timeStamp" value="83" />
         </line-breakpoint>
-        <line-breakpoint type="java-line">
-          <url>file://$PROJECT_DIR$/src/client/UserWindow.java</url>
-          <line>45</line>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/server/UserServiceImpl.java</url>
+          <line>26</line>
           <properties />
-          <option name="timeStamp" value="84" />
+          <option name="timeStamp" value="86" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/client/UserWindow.java</url>
+          <line>247</line>
+          <properties />
+          <option name="timeStamp" value="87" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/client/UserWindow.java</url>
+          <line>300</line>
+          <properties />
+          <option name="timeStamp" value="89" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/server/UserServiceImpl.java</url>
+          <line>19</line>
+          <properties />
+          <option name="timeStamp" value="93" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/client/UserWindow.java</url>
+          <line>294</line>
+          <properties />
+          <option name="timeStamp" value="94" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/server/UserServiceImpl.java</url>
+          <line>17</line>
+          <properties />
+          <option name="timeStamp" value="98" />
         </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="86" />
+      <option name="time" value="101" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory">
@@ -951,19 +923,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/client/AuthorizationWindow.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="20" column="34" selection-start-line="20" selection-start-column="34" selection-end-line="20" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/WorkerWindow.java" />
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_91/src.zip!/java/awt/event/ActionListener.java" />
-    <entry file="file://$PROJECT_DIR$/src/ProblemManagerWindow.java" />
     <entry file="file://$PROJECT_DIR$/src/ProblemAttachedWindow.java" />
     <entry file="file://$PROJECT_DIR$/src/ManagerWindow.java" />
     <entry file="file://$PROJECT_DIR$/src/WorkerBossWindow.java" />
@@ -1003,13 +962,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/client/test/test1.java" />
-    <entry file="file://$PROJECT_DIR$/src/api/RegistrationService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="54" selection-start-line="3" selection-start-column="54" selection-end-line="3" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/server/ShowingEntriesService.java" />
     <entry file="file://$PROJECT_DIR$/src/client/GuestWindow.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -1060,20 +1012,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/api/EntriesService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/api/DBConnection.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="14" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/META-INF/MANIFEST.MF">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
@@ -1082,27 +1020,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/client/VerticalLayout.java" />
-    <entry file="file://$PROJECT_DIR$/src/client/InfoWindow.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="62" selection-start-line="6" selection-start-column="62" selection-end-line="6" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CW_Blog.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" column="9" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/WEB-INF/classes/artifacts/CW_Blog_war_exploded/server/AuthServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3">
-          <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/WEB-INF/classes/artifacts/CW_Blog_war_exploded/server/AuthServiceImpl.java" />
     <entry file="file://$PROJECT_DIR$/src/server/AuthServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="205">
@@ -1120,37 +1038,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/client/AuthorizationWindow.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-102">
-          <caret line="21" column="31" selection-start-line="21" selection-start-column="31" selection-end-line="21" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_121/jre/lib/rt.jar!/sun/reflect/NativeMethodAccessorImpl.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="269">
           <caret line="33" column="33" selection-start-line="33" selection-start-column="33" selection-end-line="33" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="26" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/server/RegistrationServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1163,7 +1054,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/server/CommentsServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="258">
+        <state relative-caret-position="595">
           <caret line="44" column="66" selection-start-line="44" selection-start-column="66" selection-end-line="44" selection-end-column="66" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1173,18 +1064,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/client/PostAdding.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="383">
+        <state relative-caret-position="799">
           <caret line="56" column="43" selection-start-line="56" selection-start-column="43" selection-end-line="56" selection-end-column="43" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/server/Database.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1198,31 +1079,41 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/client/RegistrationWindow.java">
+    <entry file="file://$PROJECT_DIR$/src/client/MainApp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="66" column="160" selection-start-line="66" selection-start-column="8" selection-end-line="66" selection-end-column="160" />
-          <folding>
-            <element signature="e#1209#1210#0" expanded="true" />
-            <element signature="e#1255#1256#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/server/EntriesServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="94">
-          <caret line="35" selection-start-line="35" selection-end-line="35" />
+        <state relative-caret-position="272">
+          <caret line="16" column="80" selection-start-line="16" selection-start-column="80" selection-end-line="16" selection-end-column="80" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/client/UserWindow.java">
+    <entry file="file://$PROJECT_DIR$/src/client/InfoWindow.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="38" column="141" selection-start-line="38" selection-start-column="141" selection-end-line="38" selection-end-column="141" />
+        <state relative-caret-position="102">
+          <caret line="6" column="62" selection-start-line="6" selection-start-column="62" selection-end-line="6" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CW_Blog.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" column="9" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/api/RegistrationService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="54" selection-start-line="3" selection-start-column="54" selection-end-line="3" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/api/EntriesService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1231,18 +1122,160 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/server/Entry.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="3" column="22" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
+        <state relative-caret-position="153">
+          <caret line="9" column="16" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#256#257#0" expanded="true" />
+            <element signature="e#284#285#0" expanded="true" />
+            <element signature="e#326#327#0" expanded="true" />
+            <element signature="e#355#356#0" expanded="true" />
+            <element signature="e#390#391#0" expanded="true" />
+            <element signature="e#421#422#0" expanded="true" />
+            <element signature="e#461#462#0" expanded="true" />
+            <element signature="e#492#493#0" expanded="true" />
+            <element signature="e#525#526#0" expanded="true" />
+            <element signature="e#554#555#0" expanded="true" />
+            <element signature="e#598#599#0" expanded="true" />
+            <element signature="e#629#630#0" expanded="true" />
+            <element signature="e#660#661#0" expanded="true" />
+            <element signature="e#687#688#0" expanded="true" />
+            <element signature="e#727#728#0" expanded="true" />
+            <element signature="e#754#755#0" expanded="true" />
+            <element signature="e#780#781#0" expanded="true" />
+            <element signature="e#805#806#0" expanded="true" />
+            <element signature="e#838#839#0" expanded="true" />
+            <element signature="e#866#867#0" expanded="true" />
+            <element signature="e#901#902#0" expanded="true" />
+            <element signature="e#932#933#0" expanded="true" />
+            <element signature="e#980#981#0" expanded="true" />
+            <element signature="e#1015#1016#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/server/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1139">
+          <caret line="67" column="5" selection-start-line="67" selection-start-column="5" selection-end-line="67" selection-end-column="5" />
+          <folding>
+            <element signature="e#264#265#0" expanded="true" />
+            <element signature="e#292#293#0" expanded="true" />
+            <element signature="e#334#335#0" expanded="true" />
+            <element signature="e#368#369#0" expanded="true" />
+            <element signature="e#403#404#0" expanded="true" />
+            <element signature="e#434#435#0" expanded="true" />
+            <element signature="e#482#483#0" expanded="true" />
+            <element signature="e#522#523#0" expanded="true" />
+            <element signature="e#558#559#0" expanded="true" />
+            <element signature="e#590#591#0" expanded="true" />
+            <element signature="e#640#641#0" expanded="true" />
+            <element signature="e#682#683#0" expanded="true" />
+            <element signature="e#717#718#0" expanded="true" />
+            <element signature="e#748#749#0" expanded="true" />
+            <element signature="e#796#797#0" expanded="true" />
+            <element signature="e#836#837#0" expanded="true" />
+            <element signature="e#868#869#0" expanded="true" />
+            <element signature="e#896#897#0" expanded="true" />
+            <element signature="e#938#939#0" expanded="true" />
+            <element signature="e#972#973#0" expanded="true" />
+            <element signature="e#1008#1009#0" expanded="true" />
+            <element signature="e#1040#1041#0" expanded="true" />
+            <element signature="e#1090#1091#0" expanded="true" />
+            <element signature="e#1132#1133#0" expanded="true" />
+            <element signature="e#1163#1164#0" expanded="true" />
+            <element signature="e#1190#1191#0" expanded="true" />
+            <element signature="e#1230#1231#0" expanded="true" />
+            <element signature="e#1262#1263#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/api/DBConnection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="14" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/server/Database.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/client/MainApp.java">
+    <entry file="file://$PROJECT_DIR$/src/api/UserService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="80" selection-start-line="16" selection-start-column="80" selection-end-line="16" selection-end-column="80" />
+        <state relative-caret-position="102">
+          <caret line="6" column="37" selection-start-line="6" selection-start-column="37" selection-end-line="6" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="167">
+          <caret line="57" column="14" lean-forward="true" selection-start-line="57" selection-start-column="14" selection-end-line="57" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/28348bfb-b279-4dc7-9c34-5c68cc843fa8/console.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/server/RegistrationServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="25" selection-start-line="22" selection-start-column="25" selection-end-line="22" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/client/AuthorizationWindow.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="23" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/client/RegistrationWindow.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="302">
+          <caret line="67" column="12" lean-forward="true" selection-start-line="67" selection-start-column="12" selection-end-line="67" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/server/EntriesServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="296">
+          <caret line="84" column="30" lean-forward="true" selection-start-line="84" selection-start-column="30" selection-end-line="84" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/client/UserWindow.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="222">
+          <caret line="300" selection-start-line="300" selection-end-line="300" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/server/UserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="317">
+          <caret line="37" column="13" selection-start-line="37" selection-start-column="13" selection-end-line="37" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1315,7 +1348,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>sqlite-jdbc-3.8.11.2</last-edited>
+          <last-edited>jdatepicker-2.0.3</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

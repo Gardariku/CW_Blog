@@ -10,11 +10,6 @@ import java.io.IOException;
 
 public class AuthorizationWindow extends JFrame{
     public String name;
-    public String position;
-    public String password;
-    public String surname;
-    public String middle_name;
-    public int workerId;
 
     public AuthorizationWindow() throws IOException{
 
