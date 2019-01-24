@@ -51,10 +51,22 @@ public class UserWindow extends JFrame{
                 int color = 0;
                 List<Entry> ents = showService.ShowEntries("All");
                 for (Entry i : ents) {
-                    JPanel jPanel3 = new JPanel(new GridLayout(4, 1));
+                    JPanel jPanel3 = new JPanel(new GridLayout(4, 1, 20, 20));
                     JLabel jLabel = new JLabel(i.getTitle());
                     JLabel jLabel1 = new JLabel(i.getPostDate().toString());
-                    JLabel jLabel2 = new JLabel(i.getAuthor());
+                    JButton jLabel2 = new JButton(i.getAuthor());
+                    jLabel2.setBorderPainted( false );
+                    jLabel2.addActionListener(new ActionListener() {
+                        @Override
+                        public void actionPerformed(ActionEvent e) {
+                            try {
+                                ProfileWindow profileWindow = new ProfileWindow(i.getAuthor());
+                            }
+                            catch (IOException e2) {
+                                e2.printStackTrace();
+                            }
+                        }
+                    });
                     JLabel jLabel3 = new JLabel(i.getText());
                     int number = i.getID();
                     JButton jButton2 = new JButton("Просмотр комментариев");
@@ -65,7 +77,7 @@ public class UserWindow extends JFrame{
                                 CommentList commentList = new CommentList(login, number);
                             }
                             catch (IOException e2) {
-                                // Handle IOException
+                                e2.printStackTrace();
                             }
                         }
                     });
@@ -77,7 +89,7 @@ public class UserWindow extends JFrame{
                                 CommentWindow commentWindow = new CommentWindow(login, number);
                             }
                             catch (IOException e2) {
-                                // Handle IOException
+                                e2.printStackTrace();
                             }
                         }
                     });
@@ -112,10 +124,22 @@ public class UserWindow extends JFrame{
                 int color = 0;
                 List<Entry> ents = showService.ShowEntries("History");
                 for (Entry i : ents) {
-                    JPanel jPanel3 = new JPanel(new GridLayout(4, 1));
+                    JPanel jPanel3 = new JPanel(new GridLayout(4, 1, 20 ,20));
                     JLabel jLabel = new JLabel(i.getTitle());
                     JLabel jLabel1 = new JLabel(i.getPostDate().toString());
-                    JLabel jLabel2 = new JLabel(i.getAuthor());
+                    JButton jLabel2 = new JButton(i.getAuthor());
+                    jLabel2.setBorderPainted( false );
+                    jLabel2.addActionListener(new ActionListener() {
+                        @Override
+                        public void actionPerformed(ActionEvent e) {
+                            try {
+                                ProfileWindow profileWindow = new ProfileWindow(i.getAuthor());
+                            }
+                            catch (IOException e2) {
+                                e2.printStackTrace();
+                            }
+                        }
+                    });
                     JLabel jLabel3 = new JLabel(i.getText());
                     int number = i.getID();
                     JButton jButton2 = new JButton("Просмотр комментариев");
@@ -126,7 +150,7 @@ public class UserWindow extends JFrame{
                                 CommentList commentList = new CommentList(login, number);
                             }
                             catch (IOException e2) {
-                                // Handle IOException
+                                e2.printStackTrace();
                             }
                         }
                     });
@@ -138,7 +162,7 @@ public class UserWindow extends JFrame{
                                 CommentWindow commentWindow = new CommentWindow(login, number);
                             }
                             catch (IOException e2) {
-                                // Handle IOException
+                                e2.printStackTrace();
                             }
                         }
                     });
@@ -173,10 +197,22 @@ public class UserWindow extends JFrame{
                 int color = 0;
                 List<Entry> ents = showService.ShowEntries("Travels");
                 for (Entry i : ents) {
-                    JPanel jPanel3 = new JPanel(new GridLayout(4, 1));
+                    JPanel jPanel3 = new JPanel(new GridLayout(4, 1, 20, 20));
                     JLabel jLabel = new JLabel(i.getTitle());
                     JLabel jLabel1 = new JLabel(i.getPostDate().toString());
-                    JLabel jLabel2 = new JLabel(i.getAuthor());
+                    JButton jLabel2 = new JButton(i.getAuthor());
+                    jLabel2.setBorderPainted( false );
+                    jLabel2.addActionListener(new ActionListener() {
+                        @Override
+                        public void actionPerformed(ActionEvent e) {
+                            try {
+                                ProfileWindow profileWindow = new ProfileWindow(i.getAuthor());
+                            }
+                            catch (IOException e2) {
+                                e2.printStackTrace();
+                            }
+                        }
+                    });
                     JLabel jLabel3 = new JLabel(i.getText());
                     int number = i.getID();
                     JButton jButton2 = new JButton("Просмотр комментариев");
@@ -187,7 +223,7 @@ public class UserWindow extends JFrame{
                                 CommentList commentList = new CommentList(login, number);
                             }
                             catch (IOException e2) {
-                                // Handle IOException
+                                e2.printStackTrace();
                             }
                         }
                     });
@@ -199,7 +235,7 @@ public class UserWindow extends JFrame{
                                 CommentWindow commentWindow = new CommentWindow(login, number);
                             }
                             catch (IOException e2) {
-                                // Handle IOException
+                                e2.printStackTrace();
                             }
                         }
                     });
@@ -233,7 +269,7 @@ public class UserWindow extends JFrame{
                     PostAdding postAdding = new PostAdding(login);
                 }
                 catch (IOException e2) {
-                    // Handle IOException
+                    e2.printStackTrace();
                 }
             }
         });
@@ -244,7 +280,7 @@ public class UserWindow extends JFrame{
         userPanel.setBorder(BorderFactory.createEmptyBorder(20,20,20,20));
         UserService userService = (UserService) MainApp.factory.create(UserService.class, MainApp.serverAddress + "UserService");
 
-        User currentUser = userService.getUserInfo("full", login);
+        User currentUser = userService.getUserInfo(true, login);
         JLabel jLabel1 = new JLabel("Имя пользователя:");
         userPanel.add(jLabel1);
         JTextField name = new JTextField();

@@ -71,7 +71,7 @@ public class CommentList extends JFrame{
                     CommentWindow commentWindow = new CommentWindow(login, PostID);
                 }
                 catch (IOException e2) {
-                    // Handle IOException
+                    e2.printStackTrace();
                 }
             }
         });
@@ -85,26 +85,24 @@ public class CommentList extends JFrame{
                 userWindow.container2.removeAll();
                 userWindow.container2.setSize(jPanel2.getWidth(), jPanel2.getHeight());
                 int color = 0;
-                List<Entry> ents = showService.ShowEntries(PostID);
-                for (Entry i : ents) {
-                    JPanel jPanel3 = new JPanel(new GridLayout(4, 1));
-                    JLabel jLabel = new JLabel(i.getTitle());
-                    JLabel jLabel1 = new JLabel(i.getPostDate().toString());
+                List<Comment> comms = commsService.ShowComments(PostID);
+                for (Comment i: comms){
+                    JPanel jPanel3 = new JPanel(new GridLayout(3, 1));
+                    JLabel jLabel1 = new JLabel(i.getDate());
                     JLabel jLabel2 = new JLabel(i.getAuthor());
                     JLabel jLabel3 = new JLabel(i.getText());
-                    jPanel3.add(jLabel);
                     jPanel3.add(jLabel1);
                     jPanel3.add(jLabel2);
                     jPanel3.add(jLabel3);
-                    if (color == 0) {
+                    if (color == 0){
                         color = 1;
                         jPanel3.setBackground(Color.WHITE);
                     } else {
                         color = 0;
                         jPanel3.setBackground(Color.LIGHT_GRAY);
                     }
-                    userWindow.container2.add(jPanel3);
                     jPanel3.setAlignmentX(Component.LEFT_ALIGNMENT);
+                    userWindow.container2.add(jPanel3);
                     userWindow.revalidate();
                 }
                 userWindow.revalidate();
