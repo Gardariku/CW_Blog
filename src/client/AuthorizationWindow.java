@@ -71,7 +71,7 @@ public class AuthorizationWindow extends JFrame{
                             UserWindow userWindow = new UserWindow(login.getText());
                         }
                         catch (IOException e2) {
-                            // Handle IOException
+                            e2.printStackTrace();
                         }
                         aw.dispose();
                     }
@@ -90,7 +90,7 @@ public class AuthorizationWindow extends JFrame{
                     RegistrationWindow registrationWindow = new RegistrationWindow();
                 }
                 catch (IOException e2) {
-                    // Handle IOException
+                    e2.printStackTrace();
                 }
 
             }
@@ -105,7 +105,7 @@ public class AuthorizationWindow extends JFrame{
                     aw.dispose();
                 }
                 catch (IOException e2) {
-                    // Handle IOException
+                    e2.printStackTrace();
                 }
                 }
         });
